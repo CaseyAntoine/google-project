@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of CSS reset. */
+
+/* Navigation bar*/
+header {
+	position:absolute;
+	top:0;
+	background-color: #000;
+	height: 30px;
+	padding-left:10px;
+	width: 100%;
+}
+.top{
+	padding: 10px;
+	float:left;
+	display: inline;
+	font-family: Garamond, sans-serif;
+	font-size: 13px;
+	font-weight:bolder;
+}
+.main_nav {
+	text-decoration: none;
+	color: #BBB;
+}
+.main_nav:hover{
+	color:#FFF;
+}
+
+/*Sign in Button*/
+#sign_in{
+	position: fixed;
+	top: 45px;
+	right: 85px;
+	text-align:center;
+	height:29px;
+	width:70px;
+	background-color:#c00;
+	border:none;
+	border-radius:2px;
+	font-family:sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFF;
+
+}
+#sign_in:hover{
+	border:1px solid black;
+}
+/* Google Image*/
+img{
+	position:absolute;
+	top:192px;
+	left:50%;
+	width:275px;
+	margin-left:-137px;
+	
+}
+/*Search field*/
+.search{
+	position:absolute;
+	left:50%;
+	width:562px;
+	height:28px;
+	top:312px;
+	margin-left:-283px;
+	resize:none;
+	font-size:16px;
+}
+/* Search buttons*/
+.button_left{
+	position:absolute;
+	left:50%;
+	width:96px;
+	height:28px;
+	top:357px;
+	margin-left:-111px;
+	resize:none;
+	border:1px solid rgba(0, 0, 0, 0.1);;
+	border-radius:2px;
+	background-color: rgb(245, 245, 245);
+	text-align:center;
+	font-family: Arial,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+.button_right{
+	position:absolute;
+	left:50%;
+	width:114px;
+	height:28px;
+	top:357px;
+	margin-left:1px;
+	resize:none;
+	border:1px solid rgba(0, 0, 0, 0.1);;
+	border-radius:2px;
+	background-color: rgb(245, 245, 245);
+	text-align:center;
+	font-family:Arial,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.button_left:hover{
+	background-color:#DDD;
+}
+.button_right:hover{
+	background-color:#DDD;
+}
+	/* Footer */
+
+footer{
+	position:absolute;
+	bottom:0;
+	border-top:1px solid #ebebeb;
+	width:100%;
+	text-align:right;
+	padding-top:5px;
+}
+.bottom{
+	display:inline;
+	
+	
+
+}
+.foot{
+
+	padding:0 14px 0 4px;
+	color:#666;
+	text-decoration:none;
+	font-size:10pt;
+	font-family:Arial, sans-serif;
+}
+
+
+
